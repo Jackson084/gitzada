@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+#T1{
+    background-color: aqua;
+    transition: 0.5s;
+}
+#T1:hover{
+    box-shadow: 10px 8px 8px 5px aqua;
+    filter: drop-shadow(4px 5px 8px aqua);
+
+}
