@@ -7,37 +7,57 @@
 
 
 body{
-    color: rgb(103, 8, 8);
+    color: rgb(104, 76, 17);
     font-family: "Playwrite AU VIC Guides", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: rgb(61, 57, 57);
+    background-color: rgb(218, 207, 207);
 }
     
 header {
     padding: 2rem;
     font-size: 2rem;/* rem é relativo*/
     border: 2px solid transparent;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(70, 119, 60);
     text-align: center;
     
     
 }
 header h1{
-    filter: drop-shadow(5px 5px 5px red);
+    filter: drop-shadow(5px 5px 5px rgb(104, 76, 17));
 
 }
 main{
-    padding: 2rem;
+    
     display: flex;
     flex-direction: column; /* por padrão ele organiza tudo em uma linha "row" mas com o "column" eles votam a ser em coluna*/
-    gap: 1.8rem;
+    gap: 1rem;
 
 }
 section{
-    padding: 2rem;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     gap: 1rem;
+    padding: 2rem;
+    
 }
+section.chec{
+    flex-direction: row;
+  
+}
+input[type="radio"], input[type="checkbox"]{
+    accent-color: rgb(175, 175, 13);
+    
+
+}
+h2{
+    font-size: 1.2rem;
+    color: black;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem ;
+}
+
 
