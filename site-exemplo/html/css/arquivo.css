@@ -2,14 +2,26 @@ body{
     background-color: black;
     color: aliceblue;
 }
+.box-text{
+    
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    /*align-items: center;  Alinha verticalmente */
+}
 #T1{
     background-color: aqua;
     transition: 0.5s;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    text-align: center;
 }
 #T1:hover{
-    background-color: brown;
+    background-color: rgb(42, 136, 165);
 
 }
 label{
-    filter: drop-shadow(10px 10px 10px white);
+    transition: 0.5s;
+}
+label:hover{
+    filter: drop-shadow(2px 2px 2px white);
 }
