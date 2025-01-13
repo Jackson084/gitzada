@@ -67,7 +67,7 @@ body{
 }
 section{
     min-height: 100vh;
-    padding: 20rem 0% 20rem;
+    padding: 10rem 20% 10rem;
 }/*
 .home{
     display: flex;
@@ -84,13 +84,17 @@ section{
     margin-top: 3rem;
 }*/
 .home{
-    align-items: flex;
-    text-align: left;
-    gap: 4rem;
-    align-items: self-end;
+    display:flex;
+    align-items:center;
+    text-align: center;
+    gap: 2rem;
+    flex-direction: column;
+    
 }
 .home-content{
+    display: flex;
     flex-direction: column;
+    text-align: left;
 }
 span{
     color: var(--main-color);
@@ -133,6 +137,7 @@ span{
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
+    text-align: left;
 }
 .social-icons a{
     display: inline-flex;
