@@ -115,12 +115,13 @@ span{
 }
 
 .home-img{         
-     border-radius: 50%;                     
+     border-radius: 50%;   
+                       
 }
 .home-img img{
     position: relative;
     top: 3rem;
-    width: 32vw;
+    width: 25vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -191,4 +192,18 @@ span{
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
     color: black;
+}
+.text-animation span{
+    content: "Web Developer";
+    color: var(--main-color);
+    animation: words 20s infinite;
+}
+.text-animation span::after{
+    content: "";background-color: var(--bg-color);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid var(--bg-color);
+    right: -8px;
+    animation: cursor 0.6 infinite, typing 20s steps (14) infinite;
 }
