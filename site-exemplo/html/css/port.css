@@ -73,7 +73,11 @@ section{
     display: flex;
     align-items:center;
     justify-content: center;
+<<<<<<< Updated upstream
     gap: 3rem
+=======
+    gap: 5rem
+>>>>>>> Stashed changes
 }
 .home-content{
     
