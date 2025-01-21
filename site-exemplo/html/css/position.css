@@ -1,0 +1,13 @@
+*{
+    background-color: aliceblue;
+    width: 1000px;
+    height: 1000px;
+}
+div{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: black;
+    align-items: center;
+
+}
