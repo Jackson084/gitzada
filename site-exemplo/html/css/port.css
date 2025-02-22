@@ -407,5 +407,71 @@ section{
     line-height: 1.4;
 }
 
+.testimonials {
+    padding: 100px 15px;
+    background: var(--second-bg-color);
+}
+
+.testimonials h2 {
+    margin-bottom: 5rem;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding: 0 2rem;
+}
+
+.box > div {
+    background: var(--bg-color);
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 2px solid var(--main-color);
+    transition: .5s ease;
+}
+
+.box > div:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 2rem var(--main-color);
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--main-color);
+    margin-bottom: 1.5rem;
+    transition: .5s ease;
+}
+
+.box img:hover {
+    box-shadow: 0 0 2rem var(--main-color);
+}
+
+.box h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.box p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: var(--text-color);
+}
+
+.box i{
+    font-size: 2rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+
+
+
 
 
